@@ -1,18 +1,4 @@
 #include "binary_trees.h"
-<<<<<<< HEAD
-#include<stdlib.h>
-#include<string.h>
-#define INIT_NODE {0, NULL, NULL, NULL}
-
-/**
- *  * swap - swaps two nodes in binary tree
- *   * @a: first node
- *    * @b: second node
- *     * Return: pointer to root
- *      */
-bst_t *swap(bst_t *a, bst_t *b)
-{
-=======
 
 /**
  * heap_insert - inserts a value in Max Binary Heap
@@ -80,4 +66,3 @@ size_t binary_tree_size(const binary_tree_t *tree)
 
 	return (binary_tree_size(tree->left) + binary_tree_size(tree->right) + 1);
 }
->>>>>>> 2999eabf0c3f0be03b1bcbbc971e7684a20fc62c
